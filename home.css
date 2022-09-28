@@ -1,0 +1,275 @@
+.logo{
+    cursor: pointer;
+    font-family: cursive;
+    background: white;
+    width: fit-content;
+    padding: 5px 5px;
+    margin-left: 1vw;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.logo:hover{
+    background: black;
+    color: white;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.all-shortcuts{
+    background: linear-gradient(45deg, #6868ff, rgb(179, 99, 253));
+    display: grid;
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    grid-template-columns: 9vw 9vw 9vw 9vw 9vw 9vw;
+    column-gap: 4vw;
+    
+   
+}
+.each-shortcuts{
+    width: fit-content;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: auto;
+    padding: 1vw 1vw;
+    font-weight: 60px;
+    color: rgba(255, 255, 255, 0.897);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.each-shortcuts:hover{
+    background: white;
+    color: black;
+    
+}
+
+body{
+    height: 12000px;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 5px -6px 10px rgb(110, 110, 253), -5px -5px 10px rgb(214, 93, 245);
+}
+.ads-nav{
+    margin-top: 5vw;
+    width: 17vw;
+    position: absolute;
+    right: 2vw;
+    
+    padding: 2vw 2vw;
+
+    background: white;
+    border-radius: 10px;
+}
+.ads{
+    width: 16vw;
+    border-radius: 5px;
+}
+.ads-p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background: white;
+    padding: 1vw 1vw;
+    width: 13vw;
+    border-radius: 3px;
+}
+.choose-contents{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    position: absolute;
+    margin-top: 5vw;
+    border-radius: 5px;
+    left: 1.5vw;
+    text-align: left;
+}
+.top-catagories{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2vw;
+    text-align: center;
+    color: rgb(99, 31, 161);
+
+}
+.all-lists{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 15vw;
+    padding: 1vw 1vw;
+
+}
+.all-lists-li{
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 1vw;
+    padding: 1vw 1vw;
+    box-shadow: 3px 3px 5px rgb(219, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: auto;
+}
+.all-lists-li:hover{
+    background-color: rgb(91, 53, 231);
+    color: white;
+    
+    
+}
+.content-base{
+    border-radius: 10px;
+    width: 46vw;
+    position: absolute;
+    left: 20vw;
+    padding: 3vw 3vw;
+    margin-top: 3vw;
+    background: white;
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@keyframes content-base {
+    50%{
+        color: rgb(255, 255, 255);
+        background-image: url('https://www.google.com/logos/doodles/2017/celebrating-50-years-of-kids-coding-5745168905928704-2xa.gif');
+    }
+}
+.content-p{
+    background-image: url('https://media.nature.com/lw800/magazine-assets/d41586-019-00653-5/d41586-019-00653-5_16459152.jpg');
+    border-radius: 10px;
+    animation-name: content-base;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-size: 40px;
+    padding: 30px 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+.content-img{
+    background-image: url('https://i.pinimg.com/originals/88/37/f7/8837f706bfad179e1c6d78ed14679a27.gif');
+    border-radius: 20px;
+    margin-top: 10%;
+    background-size: cover;
+   
+    height: 300px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+    animation-name: content-img;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    font-family: monospace;
+}
+
+@keyframes content-img {
+    0%{
+        color: white;
+        font-size: 50px;
+        background-image: url('https://raw.githubusercontent.com/gist/MedRedha/fd8e2481bde2610c96b9aafde543879c/raw/88624e8d31c4295973dcb7c900dacf0edc0a6d99/coding.gif');
+  
+    }
+    100%{
+        color: white;
+        background-image: url('https://raw.githubusercontent.com/gist/MedRedha/fd8e2481bde2610c96b9aafde543879c/raw/88624e8d31c4295973dcb7c900dacf0edc0a6d99/coding.gif');
+        font-size: 50px;
+
+    }
+}
+
+.hired{
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    background-size: cover;
+    font-weight: 600;
+    font-size: 7vw;
+    animation-name: hired;
+    animation-duration: 10s;
+    opacity: 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hired {
+    0%{
+        background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/4B45/production/_117796291_gettyimages-962098266.jpg');
+
+    }
+    25%{
+        background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/4B45/production/_117796291_gettyimages-962098266.jpg');
+    }
+    26%{
+        background-image: url('https://codigosmayorista.com/wp-content/uploads/2019/11/1366_2000.jpg');
+
+    }
+    50%{
+        background-image: url('https://codigosmayorista.com/wp-content/uploads/2019/11/1366_2000.jpg');
+    }
+    51%{
+        background-image: url('https://www.trustyou.com/wp-content/uploads/2015/02/amazon_logo_RGB.jpg');
+
+    }
+    75%{
+        
+        background-image: url('https://www.trustyou.com/wp-content/uploads/2015/02/amazon_logo_RGB.jpg');
+    }
+    76%{
+        background-image: url('https://www.cnet.com/a/img/C2Fd1cExpw_XaFpubLBJ248Uk58=/940x0/2019/02/04/8311b046-6f2b-4b98-8036-e765f572efad/msft-microsoft-logo-2-3.jpg');
+
+    }
+
+    100%{
+      
+        background-image: url('https://www.cnet.com/a/img/C2Fd1cExpw_XaFpubLBJ248Uk58=/940x0/2019/02/04/8311b046-6f2b-4b98-8036-e765f572efad/msft-microsoft-logo-2-3.jpg');
+    }
+}
+
+.video{
+    width: 47vw;
+    border-radius: 10px;
+}
+.audio{
+    position: fixed;
+    top: 0px;
+    right: 2px;
+    background: linear-gradient(45deg, rgb(211, 117, 255), purple);
+    padding: 1vw 1vw;
+    border-radius: 35px;
+    width: 5vw;
+    transform: scale(0.6);
+    opacity: 0.1;
+}
+.audio:hover{
+    animation-name: aud;
+    animation-duration: 30s;
+    opacity: 1;
+    
+    background: linear-gradient(45deg, rgb(120, 120, 252), rgb(119, 119, 252));
+}
+@keyframes aud {
+    5%{
+        width: 20vw;
+    }
+    80%{
+        width: 20vw;
+    }
+}
+.welcome-h1{
+    font-size: 30px;
+}
+.welcome-p{
+    width: 40vw;
+    font-family: cursive;
+}
+.map{
+    margin-top: 2vw;
+    border-radius: 4px;
+    width: 47vw;
+}
